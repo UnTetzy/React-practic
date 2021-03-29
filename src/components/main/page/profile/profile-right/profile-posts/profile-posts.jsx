@@ -6,7 +6,9 @@ const ProfilePosts = () => {
   return (
     <div className="posts">
       <PostsForm />
-      <Post />
+      <Post message="Content" />
+      <Post message="Lalalalalal" />
+      <Post message="Shakalaka" />
     </div>
   );
 }

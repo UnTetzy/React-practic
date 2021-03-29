@@ -1,11 +1,10 @@
 import './dialogs.css';
+import DialogsLeft from './dialogs-left/dialogs-left';
 
 const Dialogs = () => {
   return (
     <section className="dialogs">
-      <div className="dialogs-left">
-        dialogs-left
-      </div>
+      <DialogsLeft />
       <div className="dialogs-right">
         dialogs-right
       </div>

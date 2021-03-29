@@ -11,9 +11,18 @@
   height: 55px;
   color: #fff;
   font-size: 15px;
+  line-height: 20px;
   background-color: #3B3B3E;
   border-radius: 5px 0 0 5px;
   padding: 10px;
+}
+.posts__form-textarea::placeholder{
+  color: #757575;
+  font-size: 14px;
+  letter-spacing: .3px;
+}
+.posts__form-textarea:focus{
+  height: 100px;
 }
 .posts__form-btn{
   border: none;
