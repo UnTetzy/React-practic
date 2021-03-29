@@ -1,0 +1,24 @@
+.nav{
+  width: 180px;
+  max-width: 100%;
+  min-width: 180px;
+  height: 420px;
+  max-height: 100%;
+  background-color: #69CED7;
+  border-radius: 0 0 5px 5px;
+  margin-right: 10px;
+}
+.nav__list{
+  padding: 25px 0;
+}
+.nav__list-link{
+  color: #453641;
+  font-size: 16px;
+  display: block;
+  padding: 12px 0 12px 15px;
+  transition: color .2s, background-color .2s;
+}
+.nav__list-link:hover{
+  color: #fff;
+  background-color: #1AA7EC;
+}

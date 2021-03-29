@@ -1,0 +1,4 @@
+.main-page__inner{
+  display: flex;
+  justify-content: space-between;
+}

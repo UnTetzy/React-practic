@@ -1,0 +1,10 @@
+.header{
+  background-color: #33A6F1;
+}
+.header__inner{
+  padding: 15px 0;
+}
+.header__inner-logo_img{
+  width: 160px;
+  height: auto;
+}
