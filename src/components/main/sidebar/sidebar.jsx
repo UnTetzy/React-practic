@@ -11,14 +11,14 @@ const Sidebar = () => {
           </NavLink>
         </li>
         <li className="nav__list-item">
-          <a className="nav__list-link" href="/news">
-            News
-          </a>
-        </li>
-        <li className="nav__list-item">
           <NavLink className="nav__list-link" to="/dialogs" activeClassName="active">
             Dialogs
           </NavLink>
+        </li>
+        <li className="nav__list-item">
+          <a className="nav__list-link" href="/news">
+            News
+          </a>
         </li>
         <li className="nav__list-item">
           <a className="nav__list-link" href="#">
