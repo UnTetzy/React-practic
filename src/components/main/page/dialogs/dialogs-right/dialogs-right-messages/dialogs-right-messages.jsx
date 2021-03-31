@@ -1,14 +1,11 @@
 import './dialogs-right-messages.css';
+import DialogsRightMessage from './dialogs-right-message/dialogs-right-message';
 
 const DialogsRightMessages = () => {
   return (
     <div className="dialogs-right__messages">
-      <div className="dialogs-right__messages_message">
-        Lalala
-      </div>
-      <div className="dialogs-right__messages_message">
-        Papapa
-      </div>
+      <DialogsRightMessage message="Lalala" />
+      <DialogsRightMessage message="Papapa" />
     </div>
   );
 }
