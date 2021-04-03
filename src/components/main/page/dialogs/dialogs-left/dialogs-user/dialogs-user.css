@@ -7,6 +7,9 @@
   border-bottom: 1px solid #757575;
   transition: background-color .1s;
 }
+.dialogs-user.active{
+  background-color: #3B3B3E;
+}
 .dialogs-user:hover{
   background-color: #3B3B3E;
 }

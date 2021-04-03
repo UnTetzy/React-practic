@@ -1,20 +1,17 @@
 import './main.css';
 import Sidebar from './sidebar/sidebar';
 import Page from './page/page';
-import { BrowserRouter } from 'react-router-dom';
 
-const MainPage = () => {
+const MainPage = (props) => {
   return (
-   <BrowserRouter>
-      <div className="main-page">
-        <div className="container">
-          <div className="main-page__inner">
-            <Sidebar />
-            <Page />
-          </div>
+    <div className="main-page">
+      <div className="container">
+        <div className="main-page__inner">
+          <Sidebar />
+          <Page text={props.text} dialogs={props.dialogs} messages={props.messages} />
         </div>
       </div>
-   </BrowserRouter>
+    </div>
   );
 }
 

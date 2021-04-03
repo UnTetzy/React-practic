@@ -1,12 +1,14 @@
 import './dialogs-left.css';
 import DialogsUser from './dialogs-user/dialogs-user';
 
-const DialogsLeft = () => {
+const DialogsLeft = (props) => {
+
+  let dialogsEl = props.dialogs
+    .map(user => <DialogsUser id={user.id} name={user.name} />)
+
   return (
     <div className="dialogs-left">
-      <DialogsUser id="1" name="Alexander Vetrov" message="Привет пошли гулять" />
-      <DialogsUser id="2" name="Sveta Vetrova" message="Привет пошли пошли пошли гулять" />
-      <DialogsUser id="3" name="Pasha Vetrov" message="Привет пошли гулять" />
+      {dialogsEl}
     </div>
   );
 }

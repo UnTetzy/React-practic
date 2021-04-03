@@ -2,12 +2,12 @@ import './profile.css';
 import ProfileLeft from './profile-left/profile-left';
 import ProfileRight from './profile-right/profile-right';
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <section className="profile">
       <div className="profile__user">
         <ProfileLeft />
-        <ProfileRight />
+        <ProfileRight text={props.text} />
       </div>
     </section>
   );

@@ -1,12 +1,12 @@
 import './profile-left-user.css';
+import ProfileLeftAvatar from './profile-left-avatar/profile-left-avatar';
+import ProfileLeftSettings from './profile-left-settings/profile-left-settings';
 
 const ProfileLeftUser = () => {
   return (
     <div className="profile__user-avatar">
-      <img className="profile__user-avatar_img" src="https://topspb.tv/768x432/uploaded/news_covers/iotkn6h.jpeg" alt="Avatar"/>
-      <div className="profile__user-avatar_settings">
-        Redactor etc
-      </div>
+      <ProfileLeftAvatar />
+      <ProfileLeftSettings />
     </div>
   );
 }

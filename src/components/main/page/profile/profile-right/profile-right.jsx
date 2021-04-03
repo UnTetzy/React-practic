@@ -2,11 +2,11 @@ import './profile-right.css';
 import ProfileInfo from './profile-info/profile-info';
 import ProfilePosts from './profile-posts/profile-posts';
 
-const ProfileRight = () => {
+const ProfileRight = (props) => {
   return (
     <div className="profile-right">
       <ProfileInfo />
-      <ProfilePosts />
+      <ProfilePosts text={props.text} />
     </div>
   );
 }

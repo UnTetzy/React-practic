@@ -21,7 +21,7 @@ const Post = (props) => {
         </div>
       </div>
       <div className="post__content">
-        {props.message}
+        {props.text}
       </div>
     </div>
   );
