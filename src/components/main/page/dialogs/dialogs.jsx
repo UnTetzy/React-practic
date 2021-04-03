@@ -1,14 +1,13 @@
 import './dialogs.css';
+import DialogsLeft from './dialogs-left/dialogs-left';
+import DialogsRight from './dialogs-right/dialogs-right';
 
-const Dialogs = () => {
+const Dialogs = (props) => {
+
   return (
     <section className="dialogs">
-      <div className="dialogs-left">
-        dialogs-left
-      </div>
-      <div className="dialogs-right">
-        dialogs-right
-      </div>
+      <DialogsLeft dialogs={props.dialogs} />
+      <DialogsRight messages={props.messages} />
     </section>
   );
 }

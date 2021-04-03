@@ -16,9 +16,13 @@
   font-size: 16px;
   display: block;
   padding: 12px 0 12px 15px;
-  transition: color .2s, background-color .2s;
+  transition: color .1s, background-color .1s;
+}
+.nav__list-link.active{
+  color: #fff;
+  background-color: #333336;
 }
 .nav__list-link:hover{
   color: #fff;
-  background-color: #1AA7EC;
+  background-color: #333336;
 }

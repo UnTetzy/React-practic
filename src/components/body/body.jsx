@@ -2,13 +2,16 @@ import './../../index.css';
 import './body.css';
 import Header from '../header/header';
 import MainPage from '../main/main';
+import { BrowserRouter } from 'react-router-dom';
 
-const Body = () => {
+const Body = (props) => {
   return (
-    <body>
-      <Header />
-      <MainPage />
-    </body>
+    <BrowserRouter>
+      <body>
+        <Header />
+        <MainPage text={props.text} dialogs={props.dialogs} messages={props.messages} />
+      </body>
+    </BrowserRouter>
   );
 }
 

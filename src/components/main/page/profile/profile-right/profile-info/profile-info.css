@@ -1,0 +1,16 @@
+.profile__user-info{
+  height: 220px;
+  max-height: 100%;
+  padding: 15px 20px;
+  background-color: #333336;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 10px;
+}
+.profile__user-top{
+  padding: 5px 0 10px;
+  border-bottom: 1px solid #757575;
+}
+.profile__user-top_name{
+  font-size: 29px;
+  margin-bottom: 10px;
+}
