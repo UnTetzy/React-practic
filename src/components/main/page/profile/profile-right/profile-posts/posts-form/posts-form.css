@@ -2,6 +2,10 @@
   display: flex;
   margin-bottom: 10px;
 }
+.posts__form:active .posts__form-btn,
+.posts__form:active .posts__form-textarea{
+  height: 100px;
+}
 .posts__form-textarea{
   outline: none;
   border: none;

@@ -4,7 +4,7 @@
   height: 68px;
   display: flex;
   border: 1px solid #757575;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 .dialogs-right__form_textarea{
   outline: none;
