@@ -8,7 +8,7 @@ const MainPage = (props) => {
       <div className="container">
         <div className="main-page__inner">
           <Sidebar />
-          <Page text={props.text} dialogs={props.dialogs} messages={props.messages} />
+          <Page text={props.text} dialogs={props.dialogs} messages={props.messages} addPost={props.addPost} />
         </div>
       </div>
     </div>

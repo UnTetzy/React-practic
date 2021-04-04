@@ -7,7 +7,7 @@ const Profile = (props) => {
     <section className="profile">
       <div className="profile__user">
         <ProfileLeft />
-        <ProfileRight text={props.text} />
+        <ProfileRight text={props.text} addPost={props.addPost} />
       </div>
     </section>
   );

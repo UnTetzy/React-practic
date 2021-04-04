@@ -9,7 +9,7 @@ const Page = (props) => {
       {/* <Route component={Profile} path="/profile" />
       <Route component={Dialogs} path="/dialogs" /> */}
 
-      <Route path="/profile" render={() => <Profile text={props.text} />} />
+      <Route path="/profile" render={() => <Profile text={props.text} addPost={props.addPost} />} />
       <Route path="/dialogs" render={() => <Dialogs dialogs={props.dialogs} messages={props.messages} />} />
     </section>
   );

@@ -1,9 +1,9 @@
 let state = {
   profilePage: {
     text: [
-      {text: 'Content'},
-      {text: 'Lalalalalal'},
-      {text: 'Shakalaka'},
+      {id: 1, text: 'Content'},
+      {id: 2, text: 'Lalalalalal'},
+      {id: 3, text: 'Shakalaka'},
     ],
   },
   dialogsPage: {
@@ -17,6 +17,14 @@ let state = {
       {message: 'Papapa'}
     ]
   }
+}
+
+export let addPost = (postMessage) => {
+  let newPost = {
+    id: 4,
+    text: postMessage
+  }
+  state.profilePage.text.push(newPost);
 }
 
 export default state;

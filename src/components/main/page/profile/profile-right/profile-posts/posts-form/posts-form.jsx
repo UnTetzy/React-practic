@@ -1,13 +1,13 @@
 import React from 'react';
 import './posts-form.css';
 
-const PostsForm = () => {
+const PostsForm = (props) => {
 
   let addTextEl = React.createRef();
 
   let addPost = () => {
     let text = addTextEl.current.value;
-    alert(text);
+    props.addPost(text);
   }
 
   return (

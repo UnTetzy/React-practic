@@ -9,7 +9,7 @@ const Body = (props) => {
     <BrowserRouter>
       <body>
         <Header />
-        <MainPage text={props.text} dialogs={props.dialogs} messages={props.messages} />
+        <MainPage text={props.text} dialogs={props.dialogs} messages={props.messages} addPost={props.addPost} />
       </body>
     </BrowserRouter>
   );

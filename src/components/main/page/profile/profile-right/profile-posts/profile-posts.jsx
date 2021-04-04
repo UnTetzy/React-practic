@@ -9,7 +9,7 @@ const ProfilePosts = (props) => {
 
   return (
     <div className="posts">
-      <PostsForm />
+      <PostsForm addPost={props.addPost} />
       {textEl}
     </div>
   );
