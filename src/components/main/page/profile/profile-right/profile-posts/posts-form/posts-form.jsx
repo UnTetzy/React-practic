@@ -8,12 +8,13 @@ const PostsForm = (props) => {
   let addPost = () => {
     let text = addTextEl.current.value;
     props.addPost(text);
+    addTextEl.current.value = '';
   }
 
   return (
     <form className="posts__form" action="#">
       <textarea className="posts__form-textarea" placeholder="Anything new?" ref={addTextEl}></textarea>
-      <button className="posts__form-btn" type="submit" onClick={addPost}>Submit</button>
+      <button className="posts__form-btn" type="button" onClick={addPost}>Submit</button>
     </form>
   );
 }
